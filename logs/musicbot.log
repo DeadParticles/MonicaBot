@@ -1,0 +1,55 @@
+[89.029312134] 2018-12-06 10:27:00,501 - INFO - launcher: Starting sanity checks
+[89.950799942] 2018-12-06 10:27:00,501 - INFO - launcher: Checking for Python 3.5+
+[89.950799942] 2018-12-06 10:27:00,501 - INFO - launcher: Checking console encoding
+[89.950799942] 2018-12-06 10:27:00,501 - INFO - launcher: Setting console encoding to UTF-8
+[90.947866440] 2018-12-06 10:27:00,502 - INFO - launcher: Ensuring we're in the right environment
+[93.951463699] 2018-12-06 10:27:00,505 - INFO - launcher: Adding local bins/ folder to path
+[1628.006696701] 2018-12-06 10:27:02,040 - INFO - launcher: Required checks passed.
+[1629.921674728] 2018-12-06 10:27:02,041 - INFO - launcher: Optional checks passed.
+[1630.922079086] 2018-12-06 10:27:02,042 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[3.8560442924499512] 2018-12-06 10:27:04,268 - WARNING - musicbot.config | In config.py::MainThread(15452), line 113 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[3.8570873737335205] 2018-12-06 10:27:04,269 - INFO - musicbot.config | In config.py::MainThread(15452), line 124 in run_checks: Using i18n: config/i18n/en.json
+[3.8730845451354980] 2018-12-06 10:27:04,285 - DEBUG - musicbot.json | In json.py::MainThread(15452), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[3.9410853385925293] 2018-12-06 10:27:04,353 - DEBUG - musicbot.bot | In bot.py::MainThread(15452), line 223 in _setup_logging: Set logging level to INFO
+[3.9410853385925293] 2018-12-06 10:27:04,353 - INFO - musicbot.bot | In bot.py::MainThread(15452), line 83 in __init__: Starting MusicBot 1.9.8_1
+[3.9420228004455566] 2018-12-06 10:27:04,354 - INFO - musicbot.bot | In bot.py::MainThread(15452), line 89 in __init__: Loaded autoplaylist with 2531 entries
+[19.5178003311157227] 2018-12-06 10:27:19,929 - DEBUG - musicbot.bot | In bot.py::MainThread(15452), line 913 in on_ready: Connection established, ready to go.
+[19.5187947750091553] 2018-12-06 10:27:19,930 - DEBUG - musicbot.bot | In bot.py::MainThread(15452), line 334 in _cache_app_info: Caching app info
+[20.1117539405822754] 2018-12-06 10:27:20,523 - DEBUG - musicbot.bot | In bot.py::MainThread(15452), line 735 in _scheck_ensure_env: Ensuring data folders exist
+[20.1177804470062256] 2018-12-06 10:27:20,529 - DEBUG - musicbot.bot | In bot.py::MainThread(15452), line 751 in _scheck_server_permissions: Checking server permissions
+[20.1187808513641357] 2018-12-06 10:27:20,530 - DEBUG - musicbot.bot | In bot.py::MainThread(15452), line 755 in _scheck_autoplaylist: Auditing autoplaylist
+[20.1187808513641357] 2018-12-06 10:27:20,530 - DEBUG - musicbot.bot | In bot.py::MainThread(15452), line 759 in _scheck_configs: Validating config
+[20.1187808513641357] 2018-12-06 10:27:20,530 - DEBUG - musicbot.config | In config.py::MainThread(15452), line 213 in async_validate: Validating options...
+[20.1187808513641357] 2018-12-06 10:27:20,530 - DEBUG - musicbot.bot | In bot.py::MainThread(15452), line 762 in _scheck_configs: Validating permissions config
+[20.1187808513641357] 2018-12-06 10:27:20,530 - DEBUG - musicbot.permissions | In permissions.py::MainThread(15452), line 65 in async_validate: Validating permissions...
+[20.1198399066925049] 2018-12-06 10:27:20,531 - INFO - musicbot.bot | In bot.py::MainThread(15452), line 930 in on_ready: Connected: 459430672034168832/Fuchzzia FM#9561
+[20.1227793693542480] 2018-12-06 10:27:20,534 - INFO - musicbot.bot | In bot.py::MainThread(15452), line 938 in on_ready: Owner:     261951513725894656/Fuchzzia#7357
+
+[20.1237838268280029] 2018-12-06 10:27:20,535 - INFO - musicbot.bot | In bot.py::MainThread(15452), line 941 in on_ready: Guild List:
+[20.1237838268280029] 2018-12-06 10:27:20,535 - INFO - musicbot.bot | In bot.py::MainThread(15452), line 944 in on_ready:  - ✩ Fuch’s Frei
+[20.1247794628143311] 2018-12-06 10:27:20,536 - INFO - musicbot.bot | In bot.py::MainThread(15452), line 944 in on_ready:  - Rod's Community
+[20.1257789134979248] 2018-12-06 10:27:20,537 - INFO - musicbot.bot | In bot.py::MainThread(15452), line 944 in on_ready:  - — Club Fuchsia —
+[20.1257789134979248] 2018-12-06 10:27:20,537 - INFO - musicbot.bot | In bot.py::MainThread(15452), line 944 in on_ready:  - Midnight
+[20.1267797946929932] 2018-12-06 10:27:20,538 - INFO - musicbot.bot | In bot.py::MainThread(15452), line 944 in on_ready:  - Bots
+[20.1277801990509033] 2018-12-06 10:27:20,539 - INFO - musicbot.bot | In bot.py::MainThread(15452), line 944 in on_ready:  - █▀█ █▄█ ▀█▀
+[20.1297140121459961] 2018-12-06 10:27:20,541 - INFO - musicbot.bot | In bot.py::MainThread(15452), line 977 in on_ready: Bound to text channels:
+[20.1307156085968018] 2018-12-06 10:27:20,542 - INFO - musicbot.bot | In bot.py::MainThread(15452), line 978 in <listcomp>:  - ✩ Fuch’s Frei/🎼music
+[20.1317145824432373] 2018-12-06 10:27:20,543 - INFO - musicbot.bot | In bot.py::MainThread(15452), line 978 in <listcomp>:  - Midnight/music
+[20.1327805519104004] 2018-12-06 10:27:20,544 - INFO - musicbot.bot | In bot.py::MainThread(15452), line 978 in <listcomp>:  - — Club Fuchsia —/general
+[20.1337156295776367] 2018-12-06 10:27:20,545 - INFO - musicbot.bot | In bot.py::MainThread(15452), line 1003 in on_ready: Autojoining voice chanels:
+[20.1347775459289551] 2018-12-06 10:27:20,546 - INFO - musicbot.bot | In bot.py::MainThread(15452), line 1004 in <listcomp>:  - ✩ Fuch’s Frei/🎧 Music Room
+[20.1367805004119873] 2018-12-06 10:27:20,548 - INFO - musicbot.bot | In bot.py::MainThread(15452), line 1004 in <listcomp>:  - Midnight/🎵 Music Lounge 🎵
+[20.1377785205841064] 2018-12-06 10:27:20,549 - INFO - musicbot.bot | In bot.py::MainThread(15452), line 1004 in <listcomp>:  - — Club Fuchsia —/General
+[20.1387796401977539] 2018-12-06 10:27:20,550 - INFO - musicbot.bot | In bot.py::MainThread(15452), line 276 in _join_startup_channels: Attempting to join ✩ Fuch’s Frei/🎧 Music Room
+[26.4326782226562500] 2018-12-06 10:27:26,844 - INFO - musicbot.bot | In bot.py::MainThread(15452), line 292 in _join_startup_channels: Joined ✩ Fuch’s Frei/🎧 Music Room
+[26.4346764087677002] 2018-12-06 10:27:26,846 - INFO - musicbot.bot | In bot.py::MainThread(15452), line 276 in _join_startup_channels: Attempting to join Midnight/🎵 Music Lounge 🎵
+[26.4376773834228516] 2018-12-06 10:27:26,849 - DEBUG - musicbot.bot | In bot.py::MainThread(15452), line 505 in on_player_stop: Running on_player_stop
+[32.0896568298339844] 2018-12-06 10:27:32,501 - INFO - musicbot.bot | In bot.py::MainThread(15452), line 292 in _join_startup_channels: Joined Midnight/🎵 Music Lounge 🎵
+[32.0916571617126465] 2018-12-06 10:27:32,503 - INFO - musicbot.bot | In bot.py::MainThread(15452), line 276 in _join_startup_channels: Attempting to join — Club Fuchsia —/General
+[32.0946543216705322] 2018-12-06 10:27:32,506 - DEBUG - musicbot.bot | In bot.py::MainThread(15452), line 505 in on_player_stop: Running on_player_stop
+[37.8210818767547607] 2018-12-06 10:27:38,233 - INFO - musicbot.bot | In bot.py::MainThread(15452), line 292 in _join_startup_channels: Joined — Club Fuchsia —/General
+[37.8220815658569336] 2018-12-06 10:27:38,234 - WARNING - musicbot.bot | In bot.py::MainThread(15452), line 1057 in on_ready: Your config file is missing some options. If you have recently updated, check the example_options.ini file to see if there are new options available to you. The options missing are: {'legacyskip'}
+[37.8280794620513916] 2018-12-06 10:27:38,240 - DEBUG - musicbot.bot | In bot.py::MainThread(15452), line 505 in on_player_stop: Running on_player_stop
